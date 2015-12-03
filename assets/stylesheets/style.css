@@ -1,0 +1,609 @@
+@font-face {
+  font-family: "federation";
+  src:  url(fonts/federation.ttf);
+}
+
+html {
+    background-image: url("../images/space-background.png");
+}
+
+.container {
+  max-width: 40rem;  /* Set the measure to 40 characters */
+  margin: auto;
+  padding: 0 10px;
+}
+
+body {
+
+  font-size: 16pt;
+  font-family: "futura-pt", sans-serif;
+  /*background-color: #1a1f2b;*/
+  color: #b28e30;
+
+  background-image: url("../images/graphic-repeat.png");
+  /*width: 15%;
+  height: 1910%;*/
+  /*width: 5%;*/
+  /*min-width: 30px;*/
+  /*max-width: 30px;*/
+  /*height: 2000%;*/
+  /*right: 20px;*/
+  /*top: 300px;*/
+  /*position: absolute;*/
+  padding-right: 5px;
+  background-position: right;
+  background-size: 5%;
+  background-repeat: repeat-y;
+}
+
+#menu {
+  background-image: url("../images/menu.png");
+  background-position: top;
+  float: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 15%;
+  height: 15%;
+
+}
+
+#about{
+  display: none;
+  background-color: white;
+  padding: 1rem;
+  min-width: 4rem;
+  /*margin-left: -600%;*/
+  margin: 5px;
+  font-size: 14pt;
+  font-weight: 200;
+  color: #30395c;
+  opacity: 0.9;
+  z-index: 10000;
+}
+
+/*#topbar h3 {
+  margin: 0;
+  padding-top: 10px;
+  width: 100%;
+  font-weight: bolder;
+}*/
+
+#about h3 {
+  padding-top: 10px;
+  font-weight: 500;
+}
+
+#aboutbody {
+  /*padding-top: 5px;*/
+
+}
+
+#menu-in {
+  width: 15%;
+  max-width: 5rem;
+  /*right: 5rem;*/
+  /*position: fixed;*/
+  float: right;
+  /*background-position: right;*/
+  /*background-size: contain;*/
+  /*position: fixed;*/
+  /*text-align: right;*/
+  right: 5%;
+  /*top: 0 auto;*/
+  /*top: 3%;*/
+  /*margin: 0 auto;*/
+  /*margin-top: 10px;*/
+  /*transform: translate(-5%, -5%);*/
+}
+
+.toph3 {
+  text-align: center;
+  /*font-size: 120%;*/
+}
+
+.close {
+  color: #b28e30;
+  text-align: center;
+}
+
+/*.overlord
+{
+float:right;
+z-index:999;
+width:1%;
+height:1%;
+background:white;
+transition:width 1s;
+-webkit-transition:width 1s;
+}*/
+
+/*.overlord:hover
+{
+z-index:999;
+width:100%;
+height: 100%;
+}*/
+
+.logo{
+  text-align: center;
+  max-width: 100%;
+  top: 30px;
+  margin-bottom: 5;
+}
+
+main {
+  padding-left: 1.5rem;
+  padding-right: 3rem;
+}
+
+p {
+  font-style: italic;
+}
+
+h1, h2 {
+  font-family: "federation";
+  letter-spacing: 1.8px;
+}
+h1 {
+  font-size: 200%;
+}
+h2 {
+  font-size: 220%;
+}
+
+h3 {
+  font-style: italic;
+  text-align: left;
+  font-size: 16pt;
+  font-weight: 300;
+  color: #b28e30;
+  max-width: 200%;
+}
+
+h4 {
+  font-family: "federation";
+  letter-spacing: 1.8px;
+  font-size: 180%;
+}
+
+a {
+  color: #b28e30;
+  text-decoration: none;
+}
+
+a:visited{
+  color: #b28e30;
+}
+
+a:hover {
+  text-decoration: inherit;
+}
+
+img {
+  max-width: 30%;
+}
+
+#enterprise-top{
+  position: fixed;
+  text-align: right;
+  right: 15px;
+  top: 0 auto;
+  width:100%;
+}
+#enterprise-top img {
+  margin: 0 auto;
+  margin-top: 150px;
+  max-width: 200px;
+  width: 15%;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+}
+
+.graphic-repeat {
+  background-image: url("../images/graphic-repeat.png");
+  /*width: 15%;
+  height: 1910%;*/
+  width: 5%;
+  /*min-width: 30px;*/
+  /*max-width: 30px;*/
+  height: 2000%;
+  right: 20px;
+  top: 300px;
+  position: absolute;
+  background-size: contain;
+  background-repeat: repeat-y;
+}
+
+.communicator-space-object {
+  background-image: url("../images/communicator-(closed).png");
+  max-width: 70%;
+  height: 45%;
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.communicator-space-object:hover {
+  background-image: url("../images/communicator-(open).png");
+}
+
+.comm-box {
+  font-weight: 300;
+  display: block;
+  /*display: none;*/
+  width: 100%;
+  height: inherit;
+  margin: auto;
+  background-color: white;
+  opacity: 0.1;
+  /*padding-bottom: 20px;*/
+}
+
+.comm-box h3 {
+  font-size: 18pt;
+  font-weight: 500;
+}
+
+.box-body {
+  font-size: 14pt;
+  padding: 1rem;
+  min-width: 80%;
+  color: 30395c;
+  /*margin-top: 200px;*/
+}
+
+#comm-tcg {
+  min-width: 90%;
+  /*padding-left: 26px;*/
+  float: right;
+  padding-bottom: 30px;
+}
+
+#flipbcg {
+  min-width: 90%;
+  /*padding: 10px;*/
+}
+
+#view-tcg {
+  min-width: 90%;
+  float: right;
+  padding-bottom: 30px;
+}
+
+#tv-bcg {
+  min-width: 90%;
+}
+
+#receiver-tcg {
+  min-width: 90%;
+  float: right;
+  padding-bottom: 30px;
+}
+
+#earpiece-bcg {
+  min-width: 90%;
+}
+
+#padd-tcg {
+  min-width: 90%;
+  float: right;
+  padding-bottom: 30px;
+}
+
+#ipad-bcg {
+  min-width: 90%;
+}
+
+#hypo-tcg {
+  min-width: 90%;
+  float: right;
+  padding-bottom: 30px;
+}
+
+#jeti-bcg {
+  min-width: 90%;
+}
+
+#tri-tcg {
+  min-width: 90%;
+  float: right;
+  padding-bottom: 30px;
+}
+
+#meditri-bcg {
+  min-width: 95%;
+}
+
+#rep-tcg {
+  min-width: 90%;
+  float: right;
+  padding-bottom: 30px;
+}
+
+#threed-bcg {
+  min-width: 95%;
+}
+
+.viewscreen {
+  background-image: url("../images/view-screen-(off).png");
+  max-width: 80%;
+  height: 30%;
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.viewscreen:hover {
+  background-image: url("../images/view-screen.png")
+}
+
+.ear-reciever {
+  background-image: url("../images/ear-receiver.png");
+  max-width: 65%;
+  height: 40%;
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.ear-reciever:hover {
+  background-image: url("../images/ear-receiver-(on).png")
+}
+
+.padd {
+  background-image: url("../images/padd-(off).png");
+  max-width: 70%;
+  height: 40%;
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.padd:hover {
+  background-image: url("../images/padd.png")
+}
+
+.hypospray {
+  background-image: url("../images/hypospray-(compressed).png");
+  max-width: 70%;
+  height: 40%;
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.hypospray:hover {
+  background-image: url("../images/hypospray.png")
+}
+
+.tricorder {
+  background-image: url("../images/tricorder-(off).png");
+  max-width: 70%;
+  height: 40%;
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.tricorder:hover {
+  background-image: url("../images/tricorder.png")
+}
+
+.replicator {
+  background-image: url("../images/replicator-(lights-off).png");
+  max-width: 70%;
+  height: 40%;
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.replicator:hover {
+  background-image: url("../images/replicator.png")
+}
+
+.references {
+  font-size: 12pt;
+  margin-bottom: 50px;
+
+}
+
+/*.motion {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}*/
+
+/*.motion iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}*/
+
+/*video {
+  max-width: 600px;
+  margin: 0 auto;
+  z-index: 90;
+}*/
+
+/*iframe {
+  max-width: 600px;
+  margin: 0 auto;
+}*/
+
+.vid-bg {
+  /*z-index: 89;*/
+  /*background-color: blue;*/
+  /*max-width: 600px;*/
+  /*margin: 0 auto;*/
+  /*padding-bottom: 2rem;*/
+}
+
+.js-video {
+  height: 0;
+  padding-top: 25px;
+  padding-bottom: 56.34%;
+  /*margin-bottom: 10px;*/
+  position: relative;
+  overflow: hidden;
+}
+
+.js-video.widescreen {
+  /*padding-bottom: 56.34%;*/
+}
+
+.js-video.vimeo {
+  padding-top: 0;
+}
+
+.js-video embed, .js-video iframe, .js-video object, .js-video video {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+
+ul>li{
+  padding-bottom: 2rem;
+  /*padding-top: 10rem;*/
+  list-style: none;
+}
+ul .communicator-space-object {
+  padding-top: -10rem;
+}
+
+ul {
+  padding: 0;
+  position: relative;
+}
+
+.sources {
+  margin: 0;
+  text-align: center;
+  position: relative;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+.sources h4 {
+  margin: 0;
+}
+
+.sources p {
+  margin: 0;
+}
+
+/*@media screen and (max-width: 500px){
+  h1 {
+    font-size: 200%;
+  }
+  h2 {
+    font-size: 200%;
+  }
+}*/
+
+@media screen and (min-width: 148px){
+  .js-video {
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 500px){
+  h1 {
+    font-size: 300%;
+  }
+  h2 {
+    font-size: 250%;
+  }
+  h4 {
+    font-size: 200%;
+  }
+}
+
+@media screen and (min-width: 650px){
+  h1 {
+    font-size: 380%;
+  }
+  h2 {
+    font-size: 250%;
+  }
+}
+
+@media screen and (min-width: 800px){
+  /*.graphic-repeat{
+    width: 40px;
+  }*/
+  .menu {
+    width: 85px;
+    height: 85px;
+  }
+  #enterprise-top {
+    right: 70px;
+  }
+  h1 {
+    font-size: 450%;
+  }
+  h2 {
+    font-size: 300%;
+  }
+  h3 {
+    font-size: 180%;
+}
+
+@media screen and (min-width: 850px){
+  #menu-in {
+    right: 10%;
+  }
+  .js-video {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 950px){
+  #menu-in {
+    right: 15%;
+  }
+  .js-video {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1050px){
+  #menu-in {
+    right: 18%;
+  }
+}
+@media screen and (min-width: 1150px){
+  #menu-in {
+    right: 20%;
+  }
+}
+@media screen and (min-width: 1250px){
+  #menu-in {
+    right: 22%;
+  }
+}
+@media screen and (min-width: 1350px){
+  #menu-in {
+    right: 25%;
+  }
+}
+@media screen and (min-width: 1450px){
+  #menu-in {
+    right: 27%;
+  }
+}
+@media screen and (min-width: 1650px){
+  #menu-in {
+    right: 29%;
+  }
+}
+@media screen and (min-width: 1850px){
+  #menu-in {
+    right: 32%;
+  }
+}
