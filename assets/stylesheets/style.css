@@ -328,7 +328,7 @@ img {
 .viewscreen {
   background-image: url("../images/view-screen-(off).png");
   max-width: 80%;
-  height: 30%;
+  height: 35%;
   background-position: bottom;
   background-size: contain;
   background-repeat: no-repeat;
