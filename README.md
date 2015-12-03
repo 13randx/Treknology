@@ -19,7 +19,9 @@ Add any new files that aren't in git.
 
   $ git add .
 
-Commit (aka save) your latest changes into git.
+Commit (aka save) your latest changes into your local git folder.
+Give it your own useful message of what new feature is now in there.
+(Imagine you were on a big team/just helping future you know what you did)
 
   $ git commit -am "Added image to footer"
 
