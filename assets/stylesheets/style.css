@@ -97,7 +97,7 @@ body {
 }
 
 .toph3 {
-  text-align: center;
+  text-align: inherit;
   /*font-size: 120%;*/
 }
 
@@ -250,19 +250,16 @@ img {
   padding: 1rem;
   min-width: 80%;
   color: 30395c;
-  /*margin-top: 200px;*/
 }
 
 #comm-tcg {
   min-width: 90%;
-  /*padding-left: 26px;*/
   float: right;
   padding-bottom: 30px;
 }
 
 #flipbcg {
   min-width: 90%;
-  /*padding: 10px;*/
 }
 
 #view-tcg {
@@ -553,7 +550,7 @@ ul {
     font-size: 300%;
   }
   h3 {
-    font-size: 180%;
+    font-size: 160%;
 }
 
 @media screen and (min-width: 850px){
