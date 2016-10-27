@@ -328,6 +328,7 @@ img {
 }
 
 .viewscreen {
+  padding-top: 20rem;
   background-image: url("../images/view-screen-(off).png");
   max-width: 80%;
   height: 35%;
@@ -341,6 +342,7 @@ img {
 }
 
 .ear-reciever {
+  padding-top: 20rem;
   background-image: url("../images/ear-receiver.png");
   max-width: 65%;
   height: 40%;
@@ -354,6 +356,7 @@ img {
 }
 
 .padd {
+  padding-top: 20rem;
   background-image: url("../images/padd-(off).png");
   max-width: 70%;
   height: 40%;
@@ -367,6 +370,7 @@ img {
 }
 
 .hypospray {
+  padding-top: 20rem;
   background-image: url("../images/hypospray-(compressed).png");
   max-width: 70%;
   height: 40%;
@@ -380,6 +384,7 @@ img {
 }
 
 .tricorder {
+  padding-top: 20rem;
   background-image: url("../images/tricorder-(off).png");
   max-width: 70%;
   height: 40%;
@@ -393,6 +398,7 @@ img {
 }
 
 .replicator {
+  padding-top: 20rem;
   background-image: url("../images/replicator-(lights-off).png");
   max-width: 70%;
   height: 40%;
@@ -477,7 +483,7 @@ ul>li{
   list-style: none;
 }
 ul .communicator-space-object {
-  padding-top: -10rem;
+  padding-top: 20rem;
 }
 
 ul {
